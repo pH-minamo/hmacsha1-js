@@ -11,7 +11,7 @@ The code was extracted directly from Chromium examples for extensions.
 
 ``` js
 var hmacsha1 = require('hmacsha1');
-var hash = hmacsha1(KEY, DATA);
+var hash = hmacsha1(KEY, DATA); // hash is base64 encoded string
 ```
 
 ## Link
